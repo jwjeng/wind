@@ -1,0 +1,14 @@
+D:\VB\風速資料轉換\風速資料轉換\bin\Release\風速資料轉換.exe
+D:\VB\風速資料轉換\風速資料轉換\bin\Release\風速資料轉換.pdb
+D:\VB\風速資料轉換\風速資料轉換\bin\Release\風速資料轉換.xml
+D:\VB\風速資料轉換\風速資料轉換\obj\x86\Release\WindowsApplication1.Form1.resources
+D:\VB\風速資料轉換\風速資料轉換\obj\x86\Release\WindowsApplication1.MDIParent1.resources
+D:\VB\風速資料轉換\風速資料轉換\obj\x86\Release\WindowsApplication1.Resources.resources
+D:\VB\風速資料轉換\風速資料轉換\obj\x86\Release\風速資料轉換.exe
+D:\VB\風速資料轉換\風速資料轉換\obj\x86\Release\風速資料轉換.xml
+D:\VB\風速資料轉換\風速資料轉換\obj\x86\Release\風速資料轉換.pdb
+D:\VB\風速資料轉換\風速資料轉換\bin\Release\風速資料轉換.exe.manifest
+D:\VB\風速資料轉換\風速資料轉換\bin\Release\風速資料轉換.application
+D:\VB\風速資料轉換\風速資料轉換\obj\x86\Release\風速資料轉換.exe.manifest
+D:\VB\風速資料轉換\風速資料轉換\obj\x86\Release\風速資料轉換.application
+D:\VB\風速資料轉換\風速資料轉換\obj\x86\Release\風速資料轉換.vbproj.GenerateResource.Cache

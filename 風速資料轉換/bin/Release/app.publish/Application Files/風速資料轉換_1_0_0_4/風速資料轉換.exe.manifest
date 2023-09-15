@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="風速資料轉換.exe" version="1.0.0.4" publicKeyToken="ea0a5d2939257f4e" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="風速資料轉換" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="風速資料轉換.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+          如果您要變更 Windows 使用者帳戶控制層級，請將 
+          requestedExecutionLevel 節點取代為下列其中一項。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         如果您要利用檔案及登錄模擬，
+         以便提供回溯相容性，則請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hant\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll" size="42904">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs.resources" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="zh-Hant" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KNjyPPEBphHUpreCeXrD0vFDoRY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="風速資料轉換.exe" size="168960">
+      <assemblyIdentity name="風速資料轉換" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>zt+0E+08I0nQPWhYa720C7UNrrM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=INFO-JWJNB\user" issuerKeyHash="090802540350fbbabc586912cc27d59ad5edced0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>F/FYjqaaT1edh6R9ZR34rvBlEBI=</DigestValue></Reference></SignedInfo><SignatureValue>hY2WFkO8KEFpmMFPMnvdlv64aaOW8u6wKqknLEccRUrRLxFyya3AFeY+wych5jD4kjZzzpUE94ZEeKTDrMPNnMGioRKjKxfDYrmNs0Weao9oTHxDk1EvERcua5ektbpZbwstwMS0jtRX8TmHfLRFYQpGHFfq5FbSHnAV5YtYGig=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wODWw9oLjn21vvCC9qWz7DHcTwdGrwPIDkYCaTSWjK8pNb7US4cJ2hi4IIMXXASPJA0/DOo3DsVkZ8yOWoDa5K9x2MNJCuJabzZhk/4JkkYZ0A1bZeVkwCxOTWoAXuUyOcwS/3/ZWJ3v1EpzP3iTfHe8vvPnBUa55782rLFDFg8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="121065f0aef81d657da4879d574f9aa68e58f117" Description="" Url=""><as:assemblyIdentity name="風速資料轉換.exe" version="1.0.0.4" publicKeyToken="ea0a5d2939257f4e" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=INFO-JWJNB\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>uAg6P+/dFAGYB7S2dvXz6Wnk+Mc=</DigestValue></Reference></SignedInfo><SignatureValue>sPpR+8VSlQ3gXV/CLc9V3isVV6Og1XNrWYn85PaKfivz2F01OSDbxHXt9cQdLa5z4vQUw9mEZ2tguB7jqC17BoPRY58nzo+K1TX2f6i6e8nO9B28Xf4iCXwTkhxiwvp8/JTrUfYKmBEde9ZlJ4lP37IzWgVYZASOiKxZxeZPnpY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wODWw9oLjn21vvCC9qWz7DHcTwdGrwPIDkYCaTSWjK8pNb7US4cJ2hi4IIMXXASPJA0/DOo3DsVkZ8yOWoDa5K9x2MNJCuJabzZhk/4JkkYZ0A1bZeVkwCxOTWoAXuUyOcwS/3/ZWJ3v1EpzP3iTfHe8vvPnBUa55782rLFDFg8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQTZn3y4FR8KVB67yWxqlYmjANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4ASQBOAEYATwAtAEoAVwBKAE4AQgBcAHUAcwBlAHIwHhcNMTExMDExMTQxMzUyWhcNMTIxMDEwMjAxMzUyWjApMScwJQYDVQQDHh4ASQBOAEYATwAtAEoAVwBKAE4AQgBcAHUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMDg1sPaC459tb7wgvals+wx3E8HRq8DyA5GAmk0loyvKTW+1EuHCdoYuCCDF1wEjyQNPwzqNw7FZGfMjlqA2uSvcdjDSQriWm82YZP+CZJGGdANW2XlZMAsTk1qAF7lMjnMEv9/2Vid79RKcz94k3x3vL7z5wVGuee/NqyxQxYPAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAPEImbjE3giybWBnpqjkx66bY3Ubhg6YWsJfFCyC2qCMp0nUy8nsqXdZiMRlKWned5cBiE/jn+Bz1tAqHy5rf40AgINbXh3oWvVZibyPP2TwsqpD1cxcMgeUCE28mxZQFXpf9sDXtgSIpcwN+RUFZCkHoF8eG11f8lBTsRhq96PQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
